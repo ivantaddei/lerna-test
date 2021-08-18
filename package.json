@@ -10,6 +10,6 @@
     "test": "lerna run test",
     "new-version": "lerna version --conventional-commits --yes",
     "diff": "lerna diff",
-    "publish": "lerna publish"
+    "publish": "lerna publish --scope={server-api}"
   }
 }
