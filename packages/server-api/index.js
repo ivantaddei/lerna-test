@@ -8,7 +8,7 @@ app.get("/", (req, res)=>{
 
 app.listen(port, (err)=>{
     if (err){
-        console.log(`Error: ${err.message}`);
+        console.log(`Error : ${err.message}`);
     } else{
         console.log(`Listening on port ${port}`);
     }
